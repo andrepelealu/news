@@ -1,7 +1,7 @@
 {
-  "name": "eyeweb/news",
+  "name": "andrepelealu/news",
   "require": {
-    "eyeweb/missioncontrolcore": "6.2.*"
+    "andrepelealu/missioncontrolcore": "6.2.*"
   },
   "autoload": {
     "psr-4": {
