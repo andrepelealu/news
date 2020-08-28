@@ -1,7 +1,7 @@
 {
   "name": "andrepelealu/news",
   "require": {
-    "andrepelealu/missioncontrolcore": "6.2.*"
+    "andrepelealu/missioncontrolcore": "dev-master"
   },
   "autoload": {
     "psr-4": {
