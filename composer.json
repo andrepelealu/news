@@ -1,0 +1,28 @@
+{
+  "name": "eyeweb/news",
+  "require": {
+    "eyeweb/missioncontrolcore": "6.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MissionControl\\News\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "7.2"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MissionControl\\News\\Providers\\NewsServiceProvider"
+      ]
+    }
+  }
+}

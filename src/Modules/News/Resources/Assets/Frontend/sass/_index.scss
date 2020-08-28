@@ -1,0 +1,27 @@
+.news-index, .news-show, .news-archive {
+    #news-articles-container {
+        .single-article {
+            img {
+                margin-bottom: rem-calc(10);
+            }
+            h2 {
+                font-size: rem-calc(22);
+                font-weight: 600;
+                color: #000;
+            }
+            .details-container {
+                margin-bottom: rem-calc(20);
+                p {
+                    font-size: rem-calc(14);
+                    margin: 0;
+                    color: #9f9f9f;
+                }
+            }
+            .article-summary {
+                p {
+                    color: #555555;
+                }
+            }
+        }
+    }
+}
